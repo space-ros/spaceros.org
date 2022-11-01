@@ -13,9 +13,7 @@ The site is implemented using the [Pelican static site generator](https://getpel
 To build the site, first get the source:
 
 ```
-$ git clone git@github.com:mjeronimo/spaceros.org.git
-$ cd spaceros.org
-$ git submodule update --recursive --init
+$ git clone --recurse-submodules git@github.com:mjeronimo/spaceros.org.git
 ```
 
 Then, install Pelican and Markdown:
@@ -27,7 +25,7 @@ $ pip3 install "pelican[markdown]"
 ## Building the Site
 
 ```
-$ cd site
+$ cd spaceros.org/site
 $ pelican
 ```
 
