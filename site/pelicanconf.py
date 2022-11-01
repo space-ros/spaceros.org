@@ -77,7 +77,7 @@ HERO = [
   }, {
     'image': SITEURL + '/images/hero/background-3.jpg',
     'title': 'Certification-Ready',
-    'text': 'Space ROS will provide software and artifacts that are aligned with aerospace standards',
+    'text': 'Provide software and artifacts that are aligned with aerospace standards',
     'links': []
   }, {
     'image': SITEURL + '/images/hero/background-4.jpg',
