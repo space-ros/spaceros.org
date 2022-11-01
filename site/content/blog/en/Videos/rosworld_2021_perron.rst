@@ -2,7 +2,7 @@ ROSWorld 2021: VIPER
 ####################
 
 :date: 2021-09-01 20:18
-:image: /images/blog/rosworld-2021.png
+:image: images/blog/rosworld-2021.png
 :tags: rosworld, roscon
 :summary: Jacob Perron's presentation about the VIPER rover.
 :lang: en

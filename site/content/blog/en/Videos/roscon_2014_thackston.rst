@@ -2,7 +2,7 @@ ROSCon 2014: ROS in Space
 #########################
 
 :date: 2021-09-01 20:18
-:image: /images/blog/roscon_2014_thackston.jpeg
+:image: images/blog/roscon_2014_thackston.jpeg
 :tags: roscon
 :summary: Allison Thackstons' presentation at ROSCon 2014.
 :lang: en

@@ -2,7 +2,7 @@ Brief History of ROS in Space
 #############################
 
 :date: 2021-09-01 20:18
-:image: /images/blog/brief_history_ros_in_space.jpg
+:image: images/blog/brief_history_ros_in_space.jpg
 :tags: ros
 :summary: An brief history of ROS in space.
 :lang: en

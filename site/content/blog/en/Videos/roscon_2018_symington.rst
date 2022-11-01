@@ -2,7 +2,7 @@ ROSCon 2018: Astrobee
 #####################
 
 :date: 2021-09-01 20:18
-:image: /images/blog/roscon_2018_symington.jpeg
+:image: images/blog/roscon_2018_symington.jpeg
 :tags: roscon
 :summary: Andrew Symington' presentation at ROSCon 2018.
 :lang: en

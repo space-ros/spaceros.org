@@ -2,7 +2,7 @@ NASA's VIPER Lunar Rover Project
 ################################
 
 :date: 2018-02-12 20:18
-:image: /images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
+:image: images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
 :tags: nasa, viper, rover
 :summary: NASA is developing the VIPER lunar rover.
 :lang: en

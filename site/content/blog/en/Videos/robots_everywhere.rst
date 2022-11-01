@@ -2,7 +2,7 @@ Space Robots
 ############
 
 :date: 2022-10-12 20:18
-:image: /images/blog/space-robots.jpg
+:image: images/blog/space-robots.jpg
 :tags: general, space-robots
 :summary: A Digital Trends tour of space robots.
 :lang: en
