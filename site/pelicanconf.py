@@ -6,7 +6,7 @@ import os
 AUTHOR = 'Michael Jeronimo'
 SITENAME = 'SpaceROS'
 SITEDESCRIPTION = 'this is just an example page for the pelican-fh5co-marble theme.'
-SITEURL = 'http://localhost:8081'
+SITEURL = 'http://localhost:8081/'
 
 # Plugins
 PLUGIN_PATHS = ['../plugins/']
@@ -44,12 +44,12 @@ I18N_SUBSITES = {
 }
 
 # Logo path, needs to be stored in PATH Setting
-LOGO = '/images/logo.svg'
+LOGO = SITEURL + 'images/logo.svg'
 
 # Special content
 HERO = [
   {
-    'image': '/images/hero/background-1.png',
+    'image': SITEURL + 'images/hero/background-1.png',
     # for multilanguage support, create a simple dict
     'title': {
       'en':'Space ROS',
@@ -68,18 +68,18 @@ HERO = [
     ]
   }, {
     # keep it a string if you dont need multiple languages
-    'image': '/images/hero/background-2.jpg',
+    'image': SITEURL + 'images/hero/background-2.jpg',
     'title': 'Our Goal',
     # keep it a string if you dont need multiple languages
     'text': 'Ease the adoption of the popular ROS framework into space robotics systems',
     'links': []
   }, {
-    'image': '/images/hero/background-3.jpg',
+    'image': SITEURL + 'images/hero/background-3.jpg',
     'title': 'Certification-Ready',
     'text': 'Space ROS will provide software and artifacts that are aligned with aerospace standards',
     'links': []
   }, {
-    'image': '/images/hero/background-4.jpg',
+    'image': SITEURL + 'images/hero/background-4.jpg',
     'title': 'Open Source and Open Community',
     'text': 'Bring the benefits of ROS to space robotics',
     'links': []
@@ -94,7 +94,7 @@ SOCIAL = (
 )
 
 ABOUT = {
-  'image': '/images/about/about.svg',
+  'image': SITEURL + 'images/about/about.svg',
   'mail': 'info@spaceros.org',
   # keep it a string if you dont need multiple languages
   'text': {
