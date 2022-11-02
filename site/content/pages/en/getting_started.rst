@@ -15,14 +15,18 @@ How to get started with Space ROS
 Learn ROS 2
 -----------
 
-If you are new to ROS 2, a good place to start is the `ROS 2 documentation site <https://docs.ros.org/en/humble/>`_. This site has installation instructions for ROS, tutorials, how-to guides, and more.
+If you are new to ROS 2, a good place to start is the `ROS 2 documentation site <https://docs.ros.org/en/humble/>`_.
+This site has installation instructions for ROS, tutorials, how-to guides, and more.
 
 In addition, there are two sites that can be helpful as you learn and use ROS 2:
 
 ROS Answers
 ^^^^^^^^^^^
 
-`ROS Answers <https://answers.ros.org/questions/>`_  is a website that has questions and answers from the ROS community. If you encounter an issue, it is very likely that someone else has faced the same problem before, and that it’s covered among the more than 10,000 questions at ROS Answers. Start by searching for questions similar to yours; if your question isn’t already asked, post a new one. Be sure to check the guidelines on how to prepare your question before posting.
+`ROS Answers <https://answers.ros.org/questions/>`_  is a website that has questions and answers from the ROS community.
+If you encounter an issue, it is very likely that someone else has faced the same problem before, and that it’s covered among the more than 10,000 questions at ROS Answers.
+Start by searching for questions similar to yours; if your question isn’t already asked, post a new one.
+Be sure to check the guidelines on how to prepare your question before posting.
 
 ROS Discourse Forums
 ^^^^^^^^^^^^^^^^^^^^
@@ -36,14 +40,12 @@ The following presentations give some background infomation about Space ROS.
 
 The ROSWorld 2021 keynote presentation by Kim Hambuchen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 |
 
 .. vimeo:: 649649866
 
 The Amazon re:MARS 2022 presentation by Michael Jeronimo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 |
 
 .. youtube:: GxTdhhCwETQ
@@ -51,28 +53,27 @@ The Amazon re:MARS 2022 presentation by Michael Jeronimo
   :allowfullscreen: yes
   :seamless: yes
 
+Review the Space ROS Documentation
+----------------------------------
 
-Get the Code
-------------
-
-By path in your pelicanconf.py
-
-.. code-block:: python
-    
-    THEME = '/path/to/theme/pelican-fh5co-marble'
+The `Space ROS documentation <https://space-ros.github.io/docs/rolling/index.html>`_ describes the differences between Space ROS and the standard ROS 2 Humble distribution.
 
 
-Install it using pelican-theme
-------------------------------
+View the Space ROS github organization
+--------------------------------------
 
-Of course you can install it using the pelican-themes cli tool, which is maybe more convinient for you.
+The `Space ROS github organization <https://github.com/space-ros>`_ has several repositories that contain various parts of the Space ROS work , including Docker images, work on requirements tools and processes, and sample applications.
+
+Build the Space ROS Docker image
+--------------------------------
+
+The `Space ROS docker repository <https://github.com/space-ros/docker>`_ has several Docker scripts for building Space ROS, MoveIt2 on SpaceROS, and demonstration applications.
+
+First, clone the docker repository
 
 .. code-block:: bash
-    
-    pelican-themes -i /path/to/theme/pelican-fh5co-marble
 
-Afterwards you can use it by just configuring its name in pelicanconf.py
+    git clone git@github.com:space-ros/docker.git
 
-.. code-block:: python
-    
-    THEME = 'pelican-fh5co-marble'
+Then follow the instructions in spaceros/README to build and run the base image.
+The image contains the Space ROS packages and the additional static analysis tools used by Space ROS.
