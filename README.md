@@ -21,7 +21,7 @@ $ pip3 install "pelican[markdown]"
 Then, get the source for the Space ROS website:
 
 ```
-$ git clone --recurse-submodules git@github.com:mjeronimo/spaceros.org.git
+$ git clone --recurse-submodules git@github.com:space-ros/spaceros.org.git
 ```
 
 ## Building the Site
