@@ -4,16 +4,16 @@ ROS in Space
 :date: 2018-02-12 20:18
 :image: /images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
 :tags: ros
-:summary: Hiking in the swiss alps.
+:summary: ROS in Space presentation
 :lang: en
 :slug: ros_in_space
 
-NASA's next lunar rover will run open-source software
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NASA Presentation about ROS in Space
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Terry Fong's presentation:
+A presentation from NASA's Terry Fong: *ROS in Space: Thoughts on Developing and Deploying ROS for Space Robotics*
 
-`ROS in Space <https://ntrs.nasa.gov/api/citations/20130013586/downloads/20130013586.pdf>`
+https://ntrs.nasa.gov/api/citations/20130013586/downloads/20130013586.pdf
 
 .. container::
 
