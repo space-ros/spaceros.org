@@ -2,7 +2,7 @@ ROS in Space
 ############
 
 :date: 2018-02-12 20:18
-:image: images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
+:image: /images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
 :tags: ros
 :summary: Hiking in the swiss alps.
 :lang: en
@@ -17,5 +17,5 @@ Terry Fong's presentation:
 
 .. container::
 
-    .. image:: images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
+    .. image:: /images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
         :width: 50%

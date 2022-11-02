@@ -2,7 +2,7 @@ PickNik wins Contracts
 ######################
 
 :date: 2018-02-12 20:18
-:image: images/blog/featured-web-picknik-robotics.jpg
+:image: /images/blog/featured-web-picknik-robotics.jpg
 :tags: nasa, spaceforce, spaceerx, picknik
 :summary: PickNik Robotics wins Space Force, NASA contracts
 :lang: en
