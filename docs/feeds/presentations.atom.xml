@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>SpaceROS - Presentations</title><link href="https://space-ros.github.io/spaceros.org/" rel="alternate"></link><link href="https://space-ros.github.io/spaceros.org/feeds/presentations.atom.xml" rel="self"></link><id>https://space-ros.github.io/spaceros.org/</id><updated>2018-02-12T20:18:00+01:00</updated><entry><title>ROS in Space</title><link href="https://space-ros.github.io/spaceros.org/ros_in_space.html" rel="alternate"></link><published>2018-02-12T20:18:00+01:00</published><updated>2018-02-12T20:18:00+01:00</updated><author><name>Michael Jeronimo</name></author><id>tag:space-ros.github.io,2018-02-12:/spaceros.org/ros_in_space.html</id><summary type="html">&lt;p class="first last"&gt;Hiking in the swiss alps.&lt;/p&gt;
-</summary><content type="html">&lt;div class="section" id="nasa-s-next-lunar-rover-will-run-open-source-software"&gt;
-&lt;h2&gt;NASA's next lunar rover will run open-source software&lt;/h2&gt;
-&lt;p&gt;Terry Fong's presentation:&lt;/p&gt;
-&lt;p&gt;&lt;cite&gt;ROS in Space &amp;lt;https://ntrs.nasa.gov/api/citations/20130013586/downloads/20130013586.pdf&amp;gt;&lt;/cite&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>SpaceROS - Presentations</title><link href="https://space-ros.github.io/spaceros.org/" rel="alternate"></link><link href="https://space-ros.github.io/spaceros.org/feeds/presentations.atom.xml" rel="self"></link><id>https://space-ros.github.io/spaceros.org/</id><updated>2018-02-12T20:18:00+01:00</updated><entry><title>ROS in Space</title><link href="https://space-ros.github.io/spaceros.org/ros_in_space.html" rel="alternate"></link><published>2018-02-12T20:18:00+01:00</published><updated>2018-02-12T20:18:00+01:00</updated><author><name>Michael Jeronimo</name></author><id>tag:space-ros.github.io,2018-02-12:/spaceros.org/ros_in_space.html</id><summary type="html">&lt;p class="first last"&gt;ROS in Space presentation&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="nasa-presentation-about-ros-in-space"&gt;
+&lt;h2&gt;NASA Presentation about ROS in Space&lt;/h2&gt;
+&lt;p&gt;A presentation from NASA's Terry Fong: &lt;em&gt;ROS in Space: Thoughts on Developing and Deploying ROS for Space Robotics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://ntrs.nasa.gov/api/citations/20130013586/downloads/20130013586.pdf"&gt;https://ntrs.nasa.gov/api/citations/20130013586/downloads/20130013586.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;div class="docutils container"&gt;
-&lt;img alt="" src="images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg" style="width: 50%;" /&gt;
+&lt;img alt="" src="/images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg" style="width: 50%;" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content><category term="Presentations"></category><category term="ros"></category></entry></feed>
