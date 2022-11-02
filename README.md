@@ -10,19 +10,23 @@ The site is implemented using the [Pelican static site generator](https://getpel
 
 ## Installation
 
-To build the site, first get the source:
+To build the site, first install the Pelican and Markdown packages if they are not already installed:
+
+
+```
+$ pip3 install "pelican[markdown]"
+
+```
+
+Then, get the source for the Space ROS website:
 
 ```
 $ git clone --recurse-submodules git@github.com:mjeronimo/spaceros.org.git
 ```
 
-Then, install Pelican and Markdown:
-
-```
-$ pip3 install "pelican[markdown]"
-```
-
 ## Building the Site
+
+Traverse into the directory containing the website source code and run pelican to build the site:
 
 ```
 $ cd spaceros.org/site
@@ -30,6 +34,8 @@ $ pelican
 ```
 
 ## Launching the site in development mode
+
+Use the develop_server script to launch the site. For example, the following command will launch a development server on port 8081:
 
 ```
 $ ./develop_server.sh start 8081
