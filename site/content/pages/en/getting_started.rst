@@ -6,7 +6,7 @@ Getting Started
 :icon: icon-github
 :summary: How to install this theme
 :lang: en
-:slug: installation
+:slug: getting_started
 :use_disqus: true
 
 How to get started with Space ROS
@@ -34,15 +34,22 @@ Watch Background Presentations on Space ROS
 
 The following presentations give some background infomation about Space ROS.
 
+The ROSWorld 2021 keynote presentation by Kim Hambuchen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|
+
 .. vimeo:: 649649866
-  :width: 400
-  :height: 225
+
+The Amazon re:MARS 2022 presentation by Michael Jeronimo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|
 
 .. youtube:: GxTdhhCwETQ
+  :class: youtube-16x9
   :allowfullscreen: yes
   :seamless: yes
-  :width: 400
-  :height: 225
 
 
 Get the Code
