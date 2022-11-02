@@ -5,7 +5,8 @@ import os
 
 AUTHOR = 'Michael Jeronimo'
 SITENAME = 'SpaceROS'
-SITEDESCRIPTION = 'this is just an example page for the pelican-fh5co-marble theme.'
+SITEDESCRIPTION = 'The Space ROS website'
+#SITEURL = 'https://space-ros.github.io/spaceros.org'
 SITEURL = 'http://localhost:8081'
 
 # Plugins
