@@ -8,10 +8,12 @@ ROSCon 2018: Astrobee
 :lang: en
 :slug: roscon_2018_symington
 
-This is the presentation
-~~~~~~~~~~~~~~~~~~~~~~~~
+Astrobee: ROS-based Flight Software for a Free-flying Robot in Microgravity
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Bacon ipsum dolor amet spare ribs burgdoggen turducken shankle pork loin. Ham kevin meatball turducken, hamburger flank pancetta jerky andouille rump doner cow boudin jowl. Tri-tip cow turducken buffalo kielbasa boudin tail short loin jerky jowl pork chop fatback venison. Burgdoggen short ribs kevin pork frankfurter meatloaf.
-Leberkas ground round kevin chuck, shankle tail pork loin ham turducken meatloaf pork belly sausage capicola sirloin. Tri-tip biltong pork loin tongue. Tenderloin shank filet mignon capicola. Turducken bacon beef, tail landjaeger burgdoggen biltong beef ribs filet mignon shankle sirloin flank tongue drumstick pig.
+Astrobee is a free-flying robot designed by NASA to operate alongside astronauts inside the International Space Station, where it will carry out scientific and surveying tasks in microgravity.
+The robot can autonomously mate with a docking station to recharge, as well as perch to existing ISS handrails using a three degrees of freedom arm.
+Its open source flight software stack is built on ROS Kinetic, uses a delay-tolerant DDS bridge for space-to-ground communication, and is accompanied by a Gazebo simulator that enables researchers to develop and test behavioral algorithms.
+This presentation covers the the software architecture, challenges faced during the development process, facilities for testing prototype hardware, and broad lessons we have learned over the last three years.
 
 .. vimeo:: 292690863

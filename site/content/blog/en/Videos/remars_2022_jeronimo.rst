@@ -11,7 +11,7 @@ re:MARS 2022
 Open space: A revolution in robots for space exploration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This presentation from re:MARS 2022 provides a bit of history of space robotics and an overview of progress to date for Space ROS and plans for the future.
+This presentation from re:MARS 2022, Michael Jeronimo provides a bit of history of space robotics and an overview of progress to date for Space ROS, as well as plans for the future.
 
 .. youtube:: GxTdhhCwETQ
   :class: youtube-16x9

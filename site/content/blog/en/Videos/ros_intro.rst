@@ -8,9 +8,9 @@ Introduction to ROS
 :lang: en
 :slug: intro_to_ros
 
-This is the presentation
-~~~~~~~~~~~~~~~~~~~~~~~~
+A high-level introduction to ROS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Bacon ipsum dolor amet spare ribs burgdoggen turducken shankle pork loin. Ham kevin meatball turducken, hamburger flank pancetta jerky andouille rump doner cow boudin jowl. Tri-tip cow turducken buffalo kielbasa boudin tail short loin jerky jowl pork chop fatback venison. Burgdoggen short ribs kevin pork frankfurter meatloaf.
+This video from Open Robotics provides a high-level introduction to the Robot Operating System (ROS).
 
 .. vimeo:: 639236696

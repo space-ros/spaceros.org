@@ -8,10 +8,10 @@ Space Robots
 :lang: en
 :slug: robots_everywhere
 
-TODO: Some Title
-~~~~~~~~~~~~~~~~
+Space Robots
+~~~~~~~~~~~~
 
-A tour of some of the coolest space robots we’ve put into orbit, and explain how robots, not humans, will be the primary explorers of the final frontier.
+This video from Digital Trends provides a tour of some of the coolest space robots put into orbit, and an explaination about how robots, not humans, will be the primary explorers of the final frontier.
 
 .. youtube:: V3gIWyjEtEg
   :class: youtube-16x9

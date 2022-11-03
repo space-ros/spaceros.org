@@ -8,10 +8,10 @@ Brief History of ROS in Space
 :lang: en
 :slug: history_of_ros_in_space
 
-This is the presentation
-~~~~~~~~~~~~~~~~~~~~~~~~
+A Brief History of ROS in Space
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Bacon ipsum dolor amet spare ribs burgdoggen turducken shankle pork loin. Ham kevin meatball turducken, hamburger flank pancetta jerky andouille rump doner cow boudin jowl. Tri-tip cow turducken buffalo kielbasa boudin tail short loin jerky jowl pork chop fatback venison. Burgdoggen short ribs kevin pork frankfurter meatloaf.
+In a video from The Construct, Ricardo explains how ROS has already been in space and for what reasons.
 
 .. youtube:: WKkB8cd5pHA
   :class: youtube-16x9

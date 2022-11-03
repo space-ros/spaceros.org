@@ -11,7 +11,9 @@ ROSCon 2014: ROS in Space
 This is the presentation
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Bacon ipsum dolor amet spare ribs burgdoggen turducken shankle pork loin. Ham kevin meatball turducken, hamburger flank pancetta jerky andouille rump doner cow boudin jowl. Tri-tip cow turducken buffalo kielbasa boudin tail short loin jerky jowl pork chop fatback venison. Burgdoggen short ribs kevin pork frankfurter meatloaf.
-Leberkas ground round kevin chuck, shankle tail pork loin ham turducken meatloaf pork belly sausage capicola sirloin. Tri-tip biltong pork loin tongue. Tenderloin shank filet mignon capicola. Turducken bacon beef, tail landjaeger burgdoggen biltong beef ribs filet mignon shankle sirloin flank tongue drumstick pig.
+Using ROS in space systems has unique challenges including radiation, communication, and safety. 
+Space systems must be somewhat error tolerant to radiation bit flips, must communicate over significant lag, restricted bandwidth and dropouts, and must operate in a known safe manner. 
+This talk provides an overview of Robonaut 2’s mobility upgrade. 
+It also includes an overview of the safety and communication systems and discusses the challenges faced and how ROS and OROCOS were used to solve them.
 
 .. vimeo:: 106993914
