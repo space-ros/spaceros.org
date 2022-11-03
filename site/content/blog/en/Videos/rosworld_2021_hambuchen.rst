@@ -3,15 +3,14 @@ ROSWorld 2021: Keynote
 
 :date: 2021-09-01 20:18
 :image: /images/blog/rosworld-2021.png
-:tags: rosworld, roscon
+etags: rosworld, roscon
 :summary: Kimbery Hambuchen's keynote presentation at ROSWorld 2021.
 :lang: en
 :slug: rosworld_2021_keynote
 
-This is the presentation
-~~~~~~~~~~~~~~~~~~~~~~~~
+ROSWord 2021 Keynote
+~~~~~~~~~~~~~~~~~~~~
 
-Bacon ipsum dolor amet spare ribs burgdoggen turducken shankle pork loin. Ham kevin meatball turducken, hamburger flank pancetta jerky andouille rump doner cow boudin jowl. Tri-tip cow turducken buffalo kielbasa boudin tail short loin jerky jowl pork chop fatback venison. Burgdoggen short ribs kevin pork frankfurter meatloaf.
-Leberkas ground round kevin chuck, shankle tail pork loin ham turducken meatloaf pork belly sausage capicola sirloin. Tri-tip biltong pork loin tongue. Tenderloin shank filet mignon capicola. Turducken bacon beef, tail landjaeger burgdoggen biltong beef ribs filet mignon shankle sirloin flank tongue drumstick pig.
+In this video, NASA's Kim Hambuchen gives an overview of NASA missions that have used robotics systems, discusses the use of ROS for some of these missions, and then presents the motivation behind Space ROS.
 
 .. vimeo:: 649649866
