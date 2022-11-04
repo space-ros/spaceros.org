@@ -60,21 +60,16 @@
         <link href="https://space-ros.github.io/spaceros.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SpaceROS Atom">
 
 
-
     </head>
     <body>
     <div id="fh5co-page">
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
         <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
+<!-- Disable the display of languages until we have translations for the pages
             <nav class="fh5co-main-menu" role="navigation">
-    <ul class="language-navigation">
-        <li>
-                <a class="lang-active" href="https://space-ros.github.io/spaceros.org/">en</a>
-                <a href="https://space-ros.github.io/spaceros.org/de/">de</a>
-        </li>
-    </ul>
             </nav>
+-->
             <div class="clearfix"></div>
             <h1  id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
@@ -101,9 +96,19 @@
             <li><a href="https://space-ros.github.io/spaceros.org/archives.html">Archive</a></li>
             <li><a href="https://space-ros.github.io/spaceros.org/contact.html">Contact</a></li>
 
-</ul>
-            </nav>
+</ul>            </nav>
 
+<!-- Stork search -->
+<!--
+<link rel="stylesheet" href="https://files.stork-search.net/releases/v1.5.0/basic.css" />
+-->
+<link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/stork.css" />
+<div class="stork-wrapper" style="margin-top: 50px">
+  <center>
+    <input data-stork="sitesearch" class="stork-input" style="width: 75%" placeholder="Search..."/>
+    <div data-stork="sitesearch-output" class="stork-output" style="text-transform: lowercase;"></div>
+  </center>
+</div>
 <ul id="social">
             <li><a href="https://github.com/space-ros" alt="Github"><i class="icon-github"></i></a></li>
 
@@ -129,12 +134,13 @@
             </div>
 
         <div class="animate-box" data-animate-effect="fadeInLeft">
-            <p class="animate-box" data-animate-effect="fadeInLeft"><div class="section" id="this-is-the-presentation">
-<h2>This is the presentation</h2>
-<p>Bacon ipsum dolor amet spare ribs burgdoggen turducken shankle pork loin. Ham kevin meatball turducken, hamburger flank pancetta jerky andouille rump doner cow boudin jowl. Tri-tip cow turducken buffalo kielbasa boudin tail short loin jerky jowl pork chop fatback venison. Burgdoggen short ribs kevin pork frankfurter meatloaf.
-Leberkas ground round kevin chuck, shankle tail pork loin ham turducken meatloaf pork belly sausage capicola sirloin. Tri-tip biltong pork loin tongue. Tenderloin shank filet mignon capicola. Turducken bacon beef, tail landjaeger burgdoggen biltong beef ribs filet mignon shankle sirloin flank tongue drumstick pig.</p>
+            <main>
+            <p class="animate-box" data-animate-effect="fadeInLeft"><div class="section" id="rosword-2021-keynote">
+<h2>ROSWord 2021 Keynote</h2>
+<p>In this video, NASA's Kim Hambuchen gives an overview of NASA missions that have used robotics systems, discusses the use of ROS for some of these missions, and then presents the motivation behind Space ROS.</p>
 <div class="vimeo vimeo-16x9" align="left"><iframe width="420" height="315" src="https://player.vimeo.com/video/649649866" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
 </p>
+            </main>
         </div>
     </div>
 
@@ -184,5 +190,12 @@ s.setAttribute('data-timestamp', +new Date());
 
     <!-- MAIN JS -->
     <script src="https://space-ros.github.io/spaceros.org/theme/js/main.js"></script>
+
+    <!-- Stork scripts -->
+    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://space-ros.github.io/spaceros.org/search-index.st")
+    </script>
+
     </body>
 </html>

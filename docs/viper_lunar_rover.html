@@ -61,21 +61,16 @@
         <link href="https://space-ros.github.io/spaceros.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SpaceROS Atom">
 
 
-
     </head>
     <body>
     <div id="fh5co-page">
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
         <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
+<!-- Disable the display of languages until we have translations for the pages
             <nav class="fh5co-main-menu" role="navigation">
-    <ul class="language-navigation">
-        <li>
-                <a class="lang-active" href="https://space-ros.github.io/spaceros.org/">en</a>
-                <a href="https://space-ros.github.io/spaceros.org/de/">de</a>
-        </li>
-    </ul>
             </nav>
+-->
             <div class="clearfix"></div>
             <h1  id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
@@ -102,9 +97,19 @@
             <li><a href="https://space-ros.github.io/spaceros.org/archives.html">Archive</a></li>
             <li><a href="https://space-ros.github.io/spaceros.org/contact.html">Contact</a></li>
 
-</ul>
-            </nav>
+</ul>            </nav>
 
+<!-- Stork search -->
+<!--
+<link rel="stylesheet" href="https://files.stork-search.net/releases/v1.5.0/basic.css" />
+-->
+<link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/stork.css" />
+<div class="stork-wrapper" style="margin-top: 50px">
+  <center>
+    <input data-stork="sitesearch" class="stork-input" style="width: 75%" placeholder="Search..."/>
+    <div data-stork="sitesearch-output" class="stork-output" style="text-transform: lowercase;"></div>
+  </center>
+</div>
 <ul id="social">
             <li><a href="https://github.com/space-ros" alt="Github"><i class="icon-github"></i></a></li>
 
@@ -131,6 +136,7 @@
             </div>
 
         <div class="animate-box" data-animate-effect="fadeInLeft">
+            <main>
             <p class="animate-box" data-animate-effect="fadeInLeft"><div class="section" id="id1">
 <h2>NASA's VIPER Lunar Rover Project</h2>
 <p>In 2023, NASA will launch VIPER (Volatiles Investigating Polar Exploration Rover), which will trek across the surface of the moon and hunt for water ice that could one day be used to make rocket fuel. The rover will be armed with the best instruments and tools that NASA can come up with: wheels that can spin properly on lunar soil, a drill that’s able to dig into extraterrestrial geology, hardware that can survive 14 days of a lunar night when temperatures sink to ˗173 °C.</p>
@@ -138,6 +144,7 @@
 <p><a class="reference external" href="https://www.technologyreview.com/2021/04/12/1022420/nasa-lunar-rover-viper-open-source-software">https://www.technologyreview.com/2021/04/12/1022420/nasa-lunar-rover-viper-open-source-software</a></p>
 </div>
 </p>
+            </main>
         </div>
     </div>
 
@@ -187,5 +194,12 @@ s.setAttribute('data-timestamp', +new Date());
 
     <!-- MAIN JS -->
     <script src="https://space-ros.github.io/spaceros.org/theme/js/main.js"></script>
+
+    <!-- Stork scripts -->
+    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://space-ros.github.io/spaceros.org/search-index.st")
+    </script>
+
     </body>
 </html>

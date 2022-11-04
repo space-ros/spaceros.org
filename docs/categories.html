@@ -46,21 +46,16 @@
         <link href="https://space-ros.github.io/spaceros.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SpaceROS Atom">
 
 
-
     </head>
     <body>
     <div id="fh5co-page">
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
         <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
+<!-- Disable the display of languages until we have translations for the pages
             <nav class="fh5co-main-menu" role="navigation">
-    <ul class="language-navigation">
-        <li>
-                <a class="lang-active" href="https://space-ros.github.io/spaceros.org/">en</a>
-                <a href="https://space-ros.github.io/spaceros.org/de/">de</a>
-        </li>
-    </ul>
             </nav>
+-->
             <div class="clearfix"></div>
             <h1  id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
@@ -87,9 +82,19 @@
             <li><a href="https://space-ros.github.io/spaceros.org/archives.html">Archive</a></li>
             <li><a href="https://space-ros.github.io/spaceros.org/contact.html">Contact</a></li>
 
-</ul>
-            </nav>
+</ul>            </nav>
 
+<!-- Stork search -->
+<!--
+<link rel="stylesheet" href="https://files.stork-search.net/releases/v1.5.0/basic.css" />
+-->
+<link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/stork.css" />
+<div class="stork-wrapper" style="margin-top: 50px">
+  <center>
+    <input data-stork="sitesearch" class="stork-input" style="width: 75%" placeholder="Search..."/>
+    <div data-stork="sitesearch-output" class="stork-output" style="text-transform: lowercase;"></div>
+  </center>
+</div>
 <ul id="social">
             <li><a href="https://github.com/space-ros" alt="Github"><i class="icon-github"></i></a></li>
 
@@ -140,7 +145,7 @@
                             </div>
                             <div class="fh5co-text">
                                 <h3>Videos</h3>
-                                <p>8 articles</p>
+                                <p>9 articles</p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
@@ -174,5 +179,12 @@
 
     <!-- MAIN JS -->
     <script src="https://space-ros.github.io/spaceros.org/theme/js/main.js"></script>
+
+    <!-- Stork scripts -->
+    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://space-ros.github.io/spaceros.org/search-index.st")
+    </script>
+
     </body>
 </html>

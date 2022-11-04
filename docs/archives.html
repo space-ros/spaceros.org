@@ -45,21 +45,16 @@
         <link href="https://space-ros.github.io/spaceros.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SpaceROS Atom">
 
 
-
     </head>
     <body>
     <div id="fh5co-page">
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
         <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
+<!-- Disable the display of languages until we have translations for the pages
             <nav class="fh5co-main-menu" role="navigation">
-    <ul class="language-navigation">
-        <li>
-                <a class="lang-active" href="https://space-ros.github.io/spaceros.org/">en</a>
-                <a href="https://space-ros.github.io/spaceros.org/de/">de</a>
-        </li>
-    </ul>
             </nav>
+-->
             <div class="clearfix"></div>
             <h1  id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
@@ -86,9 +81,19 @@
             <li class="fh5co-active"><a href="https://space-ros.github.io/spaceros.org/archives.html">Archive</a></li>
             <li><a href="https://space-ros.github.io/spaceros.org/contact.html">Contact</a></li>
 
-</ul>
-            </nav>
+</ul>            </nav>
 
+<!-- Stork search -->
+<!--
+<link rel="stylesheet" href="https://files.stork-search.net/releases/v1.5.0/basic.css" />
+-->
+<link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/stork.css" />
+<div class="stork-wrapper" style="margin-top: 50px">
+  <center>
+    <input data-stork="sitesearch" class="stork-input" style="width: 75%" placeholder="Search..."/>
+    <div data-stork="sitesearch-output" class="stork-output" style="text-transform: lowercase;"></div>
+  </center>
+</div>
 <ul id="social">
             <li><a href="https://github.com/space-ros" alt="Github"><i class="icon-github"></i></a></li>
 
@@ -117,6 +122,14 @@
                             <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Wed, 12 Oct 2022
                     </div>
                     <p class="first last">A Digital Trends tour of space robots.</p>
+
+                </div>
+                <div class="animate-box" data-animate-effect="fadeInLeft">
+                    <a href="https://space-ros.github.io/spaceros.org/c++_in_constrained_environments.html"><h2>C++ in Constrained Environments</h2></a>
+                    <div>Posted by
+                            <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Mon, 03 Jan 2022
+                    </div>
+                    <p class="first last">Bjarne Stroustrup's presentation at CppCon 2022.</p>
 
                 </div>
                 <div class="animate-box" data-animate-effect="fadeInLeft">
@@ -220,5 +233,12 @@
 
     <!-- MAIN JS -->
     <script src="https://space-ros.github.io/spaceros.org/theme/js/main.js"></script>
+
+    <!-- Stork scripts -->
+    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://space-ros.github.io/spaceros.org/search-index.st")
+    </script>
+
     </body>
 </html>
