@@ -12,3 +12,6 @@
 	path = plugins/pelican_youtube
 	url = git@github.com:kura/pelican_youtube.git
 	branch = main
+[submodule "plugins/search"]
+	path = plugins/search
+	url = git@github.com:mjeronimo/search.git
