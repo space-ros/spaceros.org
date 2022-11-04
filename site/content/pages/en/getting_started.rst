@@ -7,7 +7,7 @@ Getting Started
 :summary: How to install this theme
 :lang: en
 :slug: getting_started
-:use_disqus: true
+:use_disqus: false
 
 How to get started with Space ROS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
