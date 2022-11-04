@@ -15,6 +15,7 @@ PLUGINS = [
   'i18n_subsites', 
   'pelican_youtube', 
   'pelican_vimeo',
+  'search',
 ]
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
@@ -36,12 +37,20 @@ PAGE_PATHS = ['pages/en']
 ARTICLE_PATHS = ['blog/en']
 
 # I18n
-I18N_SUBSITES = {
-  'de': {
-    'PAGE_PATHS': ['pages/de'],
-    'ARTICLE_PATHS': ['blog/de'],
-    'LOCALE': 'de_DE'
-  }
+#I18N_SUBSITES = {
+#  'de': {
+#    'PAGE_PATHS': ['pages/de'],
+#    'ARTICLE_PATHS': ['blog/de'],
+#    'LOCALE': 'de_DE'
+#  }
+#}
+
+# Add some extra files
+STATIC_PATHS = [
+  'extra/stork.css'
+]
+EXTRA_PATH_METADATA = {
+  'extra/stork.css': {'path': 'theme/css/stork.css'}
 }
 
 # Logo path, needs to be stored in PATH Setting
