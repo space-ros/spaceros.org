@@ -47,6 +47,7 @@ ARTICLE_PATHS = ['blog/en']
 
 # Add some extra files
 STATIC_PATHS = [
+  'images',
   'extra/stork.css'
 ]
 EXTRA_PATH_METADATA = {
