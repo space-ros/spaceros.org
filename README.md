@@ -13,13 +13,20 @@ The site is implemented using the [Pelican static site generator](https://getpel
 
 To build the site, first install the Pelican and Markdown packages if they are not already installed:
 
-
 ```
 $ pip3 install "pelican[markdown]"
-
 ```
 
-Then, get the source for the Space ROS website:
+Then [install the Stork tool](https://stork-search.net/docs/install), which is used for indexing content.
+For example,
+
+```
+michael@bluesalley:~/.local/bin$ wget https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04
+michael@bluesalley:~/.local/bin$ chmod +x stork-ubuntu-20-04
+michael@bluesalley:~/.local/bin$ ln -s stork-ubuntu-20-04 stork
+```
+
+Finally, get the source for the Space ROS website:
 
 ```
 $ git clone --recurse-submodules git@github.com:space-ros/spaceros.org.git
@@ -44,7 +51,7 @@ $ ./develop_server.sh start 8081
 
 Open a browser window and navigate to *localhost:8081*
 
-## Control of the develop server
+## Controlling the development server
 
 The develop_server script has start, stop, and restart options that you can use to control the development server:
 
