@@ -6,7 +6,8 @@ The site is implemented using the [Pelican static site generator](https://getpel
 
 * [pelican_i18n_subsites](git@github.com:StevenMaude/pelican-i18n_subsites.git)
 * [pelican_vimeo](git@github.com:kura/pelican_vimeo.git)
-* [pelican_youtube]( git@github.com:kura/pelican_youtube.git)
+* [pelican_youtube](git@github.com:kura/pelican_youtube.git)
+* [search](https://github.com/pelican-plugins/search)
 
 ## Installation
 
@@ -42,3 +43,17 @@ $ ./develop_server.sh start 8081
 ```
 
 Open a browser window and navigate to *localhost:8081*
+
+## Control of the develop server
+
+The develop_server script has start, stop, and restart options that you can use to control the development server:
+
+```
+michael@bluenote:~/src/spaceros.org/site$ ./develop_server.sh --help
+
+usage: ./develop_server.sh (stop) (start) (restart) [port]
+This starts Pelican in debug and reload mode and then launches
+an HTTP server to help site development. It doesn't read
+your Pelican settings, so if you edit any paths in your Makefile
+you will need to edit your settings as well.
+```
