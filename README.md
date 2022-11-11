@@ -4,9 +4,9 @@ This is the source code for the Space ROS website.
 
 The site is implemented using the [Pelican static site generator](https://getpelican.com/) and uses the [pelican-fh5co-marble theme](https://github.com/claudio-walser/pelican-fh5co-marble) with the following plugins:
 
-* [pelican_i18n_subsites](git@github.com:StevenMaude/pelican-i18n_subsites.git)
-* [pelican_vimeo](git@github.com:kura/pelican_vimeo.git)
-* [pelican_youtube](git@github.com:kura/pelican_youtube.git)
+* [pelican_i18n_subsites](https://github.com/StevenMaude/pelican-i18n_subsites.git)
+* [pelican_vimeo](https://github.com/kura/pelican_vimeo.git)
+* [pelican_youtube](https://github.com/kura/pelican_youtube.git)
 * [search](https://github.com/pelican-plugins/search)
 
 ## Installation
