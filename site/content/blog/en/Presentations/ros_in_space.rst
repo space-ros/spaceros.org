@@ -19,3 +19,4 @@ https://ntrs.nasa.gov/api/citations/20130013586/downloads/20130013586.pdf
 
     .. image:: /images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg
         :width: 50%
+        :alt: The VIPER rover
