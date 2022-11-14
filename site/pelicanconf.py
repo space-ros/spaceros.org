@@ -11,9 +11,9 @@ SITEURL = 'http://localhost:8081'
 
 # Plugins
 PLUGIN_PATHS = ['../plugins/']
-PLUGINS = [ 
-  'i18n_subsites', 
-  'pelican_youtube', 
+PLUGINS = [
+  'i18n_subsites',
+  'pelican_youtube',
   'pelican_vimeo',
   'search',
 ]
@@ -56,6 +56,7 @@ EXTRA_PATH_METADATA = {
 
 # Logo path, needs to be stored in PATH Setting
 LOGO = '/images/logo.svg'
+LOGO_SMALL = '/images/about/about.svg'
 
 # Special content
 HERO = [
