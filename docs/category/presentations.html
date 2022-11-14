@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/flexslider.css">
     <!-- Theme style  -->
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/style.css">
+    <!-- SpaceROS-related styles  -->
+    <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/space-ros.css">
     <!-- Custom style  -->
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/custom.css">
     <!-- pygments code highlight -->
@@ -57,9 +59,13 @@
             </nav>
 -->
             <div class="clearfix"></div>
-            <h1  id="fh5co-logo">
+            <h1 class="space-ros" id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
-                    <img src="https://space-ros.github.io/spaceros.org//images/logo.svg" />
+                    <picture>
+                        <source srcset="https://space-ros.github.io/spaceros.org//images/about/about.svg" media="(max-width: 992px)"/>
+                        <source srcset="https://space-ros.github.io/spaceros.org//images/logo.svg" media="(min-width: 993px)"/>
+                        <img src="https://space-ros.github.io/spaceros.org//images/logo.svg" />
+                    </picture>
                 </a>
             </h1>
             <nav class="fh5co-main-menu" role="navigation">
@@ -108,28 +114,39 @@
         <div id="fh5co-main">
     <div class="fh5co-narrow-content">
         <h1 class="fh5co-heading-colored"><i class="icon-folder"></i> Presentations</h1>
+<div class="space-ros flex-container">
 <div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
-    <div class="blog-entry">
+    <div class="space-ros blog-entry">
+            <a href="https://space-ros.github.io/spaceros.org/roadmap_and_investments.html" class="blog-img"><img src="https://space-ros.github.io/spaceros.org//images/blog/roadmap_and_investments.png" class="img-responsive" alt="Roadmap and Investments"></a>
+        <div class="space-ros desc">
+            <h3><a href="https://space-ros.github.io/spaceros.org/roadmap_and_investments.html">Roadmap and Investments</a></h3>
+            <span><small>Posted on Fri, 11 Nov 2022</small></span>
+            <p><p class="first last">NASA Autonomous Systems &amp; Robotics: Roadmap and Investments</p>
+</p>
+            <a href="https://space-ros.github.io/spaceros.org/roadmap_and_investments.html" class="space-ros btn btn-primary">Read more <i class="icon-arrow-right3"></i></a>
+        </div>
+    </div>
+</div><div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+    <div class="space-ros blog-entry">
             <a href="https://space-ros.github.io/spaceros.org/ros_in_space.html" class="blog-img"><img src="https://space-ros.github.io/spaceros.org//images/blog/1280px-Viper_rover_Searches_for_Water_Ice_on_the_Moon.jpg" class="img-responsive" alt="ROS in Space"></a>
-        <div class="desc">
+        <div class="space-ros desc">
             <h3><a href="https://space-ros.github.io/spaceros.org/ros_in_space.html">ROS in Space</a></h3>
             <span><small>Posted on Mon, 12 Feb 2018</small></span>
             <p><p class="first last">ROS in Space presentation</p>
 </p>
-            <a href="https://space-ros.github.io/spaceros.org/ros_in_space.html" class="btn btn-primary">Read more <i class="icon-arrow-right3"></i></a>
+            <a href="https://space-ros.github.io/spaceros.org/ros_in_space.html" class="space-ros btn btn-primary">Read more <i class="icon-arrow-right3"></i></a>
         </div>
     </div>
-</div>    </div>
+</div></div>    </div>
 <div class="fh5co-footer">
-  <hr style="height:1px; border-width:0; color:black; background-color:#2c3553; margin-top: 25px; margin-bottom: 0px">
+  <hr style="height:1px; border-width:0; background-color:black; opacity:0.25; margin-top: 25px; margin-bottom: 0px">
   <p>
     <small><i>
       ©2022 <a href="https://www.openrobotics.org">Open Robotics</a> | 
       licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> 
     </i><small>
   </p>
-</div>                
-        </div>
+</div>        </div>
     </div>
 
     <!-- jQuery -->

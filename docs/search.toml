@@ -13,6 +13,21 @@ url = "/pages/getting_started.html"
 title = "Getting Started"
 
 [[input.files]]
+path = "roadmap_and_investments.html"
+url = "/roadmap_and_investments.html"
+title = "Roadmap and Investments"
+
+[[input.files]]
+path = "roscon_2022_jeronimo_biggs.html"
+url = "/roscon_2022_jeronimo_biggs.html"
+title = "Tools and Processes for improving certifiability"
+
+[[input.files]]
+path = "wrong_way_to_integrate.html"
+url = "/wrong_way_to_integrate.html"
+title = "The Wrong Way to Integrate cFS and ROS"
+
+[[input.files]]
 path = "remars_2022.html"
 url = "/remars_2022.html"
 title = "re:MARS 2022"
@@ -56,6 +71,11 @@ title = "ROSWorld 2021: Keynote"
 path = "rosworld_2021_viper.html"
 url = "/rosworld_2021_viper.html"
 title = "ROSWorld 2021: VIPER"
+
+[[input.files]]
+path = "developing_space_ros.html"
+url = "/developing_space_ros.html"
+title = "Open Robotics developing Space ROS"
 
 [[input.files]]
 path = "picknik_wins_contracts.html"

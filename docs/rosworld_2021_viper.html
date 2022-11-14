@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/flexslider.css">
     <!-- Theme style  -->
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/style.css">
+    <!-- SpaceROS-related styles  -->
+    <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/space-ros.css">
     <!-- Custom style  -->
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/custom.css">
     <!-- pygments code highlight -->
@@ -71,9 +73,13 @@
             </nav>
 -->
             <div class="clearfix"></div>
-            <h1  id="fh5co-logo">
+            <h1 class="space-ros" id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
-                    <img src="https://space-ros.github.io/spaceros.org//images/logo.svg" />
+                    <picture>
+                        <source srcset="https://space-ros.github.io/spaceros.org//images/about/about.svg" media="(max-width: 992px)"/>
+                        <source srcset="https://space-ros.github.io/spaceros.org//images/logo.svg" media="(min-width: 993px)"/>
+                        <img src="https://space-ros.github.io/spaceros.org//images/logo.svg" />
+                    </picture>
                 </a>
             </h1>
             <nav class="fh5co-main-menu" role="navigation">
@@ -124,7 +130,7 @@
     <div class="fh5co-narrow-content article-content">
         <h1 class="fh5co-heading-colored">ROSWorld 2021: VIPER</h1>
 
-        <div>by
+        <div>Posted by
                 <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Wed, 01 Sep 2021
         </div>
 
@@ -144,36 +150,16 @@
         </div>
     </div>
 
-<div class="fh5co-narrow-content">
-<div class="animate-box" data-animate-effect="fadeInLeft">
-    <h2><!-- <i class="icon-speech-bubble"></i>  -->Comments</h2>
-</div>
-<div class="animate-box" data-animate-effect="fadeInLeft">
-    <div id="disqus_thread"></div>
-</div>
 
-<script>
-var disqus_config = function () { 
-  this.language = "en";
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://gitcd-dev.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript><a href="https://disqus.com/?ref_noscript">Please enable JavaScript to view the comments powered by Disqus.</a></noscript>
 <div class="fh5co-footer">
-  <hr style="height:1px; border-width:0; color:black; background-color:#2c3553; margin-top: 25px; margin-bottom: 0px">
+  <hr style="height:1px; border-width:0; background-color:black; opacity:0.25; margin-top: 25px; margin-bottom: 0px">
   <p>
     <small><i>
       ©2022 <a href="https://www.openrobotics.org">Open Robotics</a> | 
       licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> 
     </i><small>
   </p>
-</div>                
-        </div>
+</div>        </div>
     </div>
 
     <!-- jQuery -->

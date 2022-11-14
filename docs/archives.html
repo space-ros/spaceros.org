@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/flexslider.css">
     <!-- Theme style  -->
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/style.css">
+    <!-- SpaceROS-related styles  -->
+    <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/space-ros.css">
     <!-- Custom style  -->
     <link rel="stylesheet" href="https://space-ros.github.io/spaceros.org/theme/css/custom.css">
     <!-- pygments code highlight -->
@@ -56,9 +58,13 @@
             </nav>
 -->
             <div class="clearfix"></div>
-            <h1  id="fh5co-logo">
+            <h1 class="space-ros" id="fh5co-logo">
                 <a href="https://space-ros.github.io/spaceros.org/index.html">
-                    <img src="https://space-ros.github.io/spaceros.org//images/logo.svg" />
+                    <picture>
+                        <source srcset="https://space-ros.github.io/spaceros.org//images/about/about.svg" media="(max-width: 992px)"/>
+                        <source srcset="https://space-ros.github.io/spaceros.org//images/logo.svg" media="(min-width: 993px)"/>
+                        <img src="https://space-ros.github.io/spaceros.org//images/logo.svg" />
+                    </picture>
                 </a>
             </h1>
             <nav class="fh5co-main-menu" role="navigation">
@@ -108,6 +114,30 @@
     <div class="fh5co-narrow-content">
         <h1 class="fh5co-heading-colored"><i class="icon-archive"></i> Archive</h1>
         <div class="archive">
+                <div class="animate-box" data-animate-effect="fadeInLeft">
+                    <a href="https://space-ros.github.io/spaceros.org/roadmap_and_investments.html"><h2>Roadmap and Investments</h2></a>
+                    <div>Posted by
+                            <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Fri, 11 Nov 2022
+                    </div>
+                    <p class="first last">NASA Autonomous Systems &amp; Robotics: Roadmap and Investments</p>
+
+                </div>
+                <div class="animate-box" data-animate-effect="fadeInLeft">
+                    <a href="https://space-ros.github.io/spaceros.org/roscon_2022_jeronimo_biggs.html"><h2>Tools and Processes for improving certifiability</h2></a>
+                    <div>Posted by
+                            <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Fri, 11 Nov 2022
+                    </div>
+                    <p class="first last">Michael Jeronimo and Geoffery Biggs' presentation at ROSCon 2022.</p>
+
+                </div>
+                <div class="animate-box" data-animate-effect="fadeInLeft">
+                    <a href="https://space-ros.github.io/spaceros.org/wrong_way_to_integrate.html"><h2>The Wrong Way to Integrate cFS and ROS</h2></a>
+                    <div>Posted by
+                            <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Fri, 11 Nov 2022
+                    </div>
+                    <p class="first last">FSW 2022: The Wrong Way to Integrate cFS and ROS</p>
+
+                </div>
                 <div class="animate-box" data-animate-effect="fadeInLeft">
                     <a href="https://space-ros.github.io/spaceros.org/remars_2022.html"><h2>re:MARS 2022</h2></a>
                     <div>Posted by
@@ -181,6 +211,14 @@
 
                 </div>
                 <div class="animate-box" data-animate-effect="fadeInLeft">
+                    <a href="https://space-ros.github.io/spaceros.org/developing_space_ros.html"><h2>Open Robotics developing Space ROS</h2></a>
+                    <div>Posted by
+                            <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Mon, 12 Feb 2018
+                    </div>
+                    <p class="first last">Open Robotics is developing Space ROS with Blue Origin and NASA</p>
+
+                </div>
+                <div class="animate-box" data-animate-effect="fadeInLeft">
                     <a href="https://space-ros.github.io/spaceros.org/picknik_wins_contracts.html"><h2>PickNik wins Contracts</h2></a>
                     <div>Posted by
                             <a href="author/michael-jeronimo.html">Michael Jeronimo</a> - Mon, 12 Feb 2018
@@ -208,15 +246,14 @@
     </div>
 
 <div class="fh5co-footer">
-  <hr style="height:1px; border-width:0; color:black; background-color:#2c3553; margin-top: 25px; margin-bottom: 0px">
+  <hr style="height:1px; border-width:0; background-color:black; opacity:0.25; margin-top: 25px; margin-bottom: 0px">
   <p>
     <small><i>
       ©2022 <a href="https://www.openrobotics.org">Open Robotics</a> | 
       licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> 
     </i><small>
   </p>
-</div>                
-        </div>
+</div>        </div>
     </div>
 
     <!-- jQuery -->
