@@ -107,7 +107,7 @@ SOCIAL = (
 
 ABOUT = {
   'image': '/images/about/about.svg',
-  'mail': 'info@spaceros.org',
+  'mail': 'info@osrfoundation.org',
   # keep it a string if you dont need multiple languages
   'text': {
     'en': 'Drop us a message.',
