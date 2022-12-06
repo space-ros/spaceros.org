@@ -10,7 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://space-ros.github.io/spaceros.org'
+# DEVNOTE: This is not the Github Pages URL, rather the custom domain used.
+# The redirects may cause unwanted HTTPS-related issues which are solved by
+# using the custom domain directly.
+SITEURL = 'https://space.ros.org'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
