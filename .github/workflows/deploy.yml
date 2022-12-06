@@ -3,6 +3,7 @@ name: Deploy Website to Github Pages
 on:
   push:
     branches: [master]
+  pull_request:
 
 jobs:
   build_and_deploy:
@@ -34,6 +35,7 @@ jobs:
     # Deploy the site built into the gh-pages branch.
     # You need to configure pages to be at gh-pages and serve the root folder.
     - name: Deploy
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: site/output
