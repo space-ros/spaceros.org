@@ -1,0 +1,98 @@
+[input]
+base_directory = "output"
+html_selector = "main"
+
+[[input.files]]
+path = "pages/faq.html"
+url = "/pages/faq.html"
+title = "FAQ"
+
+[[input.files]]
+path = "pages/getting_started.html"
+url = "/pages/getting_started.html"
+title = "Getting Started"
+
+[[input.files]]
+path = "into_to_cfs.html"
+url = "/into_to_cfs.html"
+title = "Introduction to CFS"
+
+[[input.files]]
+path = "roadmap_and_investments.html"
+url = "/roadmap_and_investments.html"
+title = "Roadmap and Investments"
+
+[[input.files]]
+path = "roscon_2022_jeronimo_biggs.html"
+url = "/roscon_2022_jeronimo_biggs.html"
+title = "Tools and Processes for improving certifiability"
+
+[[input.files]]
+path = "wrong_way_to_integrate.html"
+url = "/wrong_way_to_integrate.html"
+title = "The Wrong Way to Integrate cFS and ROS"
+
+[[input.files]]
+path = "remars_2022.html"
+url = "/remars_2022.html"
+title = "re:MARS 2022"
+
+[[input.files]]
+path = "robots_everywhere.html"
+url = "/robots_everywhere.html"
+title = "Space Robots"
+
+[[input.files]]
+path = "c++_in_constrained_environments.html"
+url = "/c++_in_constrained_environments.html"
+title = "C++ in Constrained Environments"
+
+[[input.files]]
+path = "history_of_ros_in_space.html"
+url = "/history_of_ros_in_space.html"
+title = "Brief History of ROS in Space"
+
+[[input.files]]
+path = "intro_to_ros.html"
+url = "/intro_to_ros.html"
+title = "Introduction to ROS"
+
+[[input.files]]
+path = "roscon_2014_ros_in_space.html"
+url = "/roscon_2014_ros_in_space.html"
+title = "ROSCon 2014: ROS in Space"
+
+[[input.files]]
+path = "roscon_2018_symington.html"
+url = "/roscon_2018_symington.html"
+title = "ROSCon 2018: Astrobee"
+
+[[input.files]]
+path = "rosworld_2021_keynote.html"
+url = "/rosworld_2021_keynote.html"
+title = "ROSWorld 2021: Keynote"
+
+[[input.files]]
+path = "rosworld_2021_viper.html"
+url = "/rosworld_2021_viper.html"
+title = "ROSWorld 2021: VIPER"
+
+[[input.files]]
+path = "developing_space_ros.html"
+url = "/developing_space_ros.html"
+title = "Open Robotics developing Space ROS"
+
+[[input.files]]
+path = "picknik_wins_contracts.html"
+url = "/picknik_wins_contracts.html"
+title = "PickNik wins Contracts"
+
+[[input.files]]
+path = "ros_in_space.html"
+url = "/ros_in_space.html"
+title = "ROS in Space"
+
+[[input.files]]
+path = "viper_lunar_rover.html"
+url = "/viper_lunar_rover.html"
+title = "NASA's VIPER Lunar Rover Project"
