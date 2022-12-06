@@ -6,7 +6,6 @@ import os
 AUTHOR = 'Michael Jeronimo'
 SITENAME = 'SpaceROS'
 SITEDESCRIPTION = 'The Space ROS website'
-#SITEURL = 'https://space-ros.github.io/spaceros.org'
 SITEURL = 'http://localhost:8081'
 
 # Plugins
