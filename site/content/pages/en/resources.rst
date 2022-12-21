@@ -15,34 +15,24 @@ Useful resources of Space ROS
 Space ROS Docs
 --------------
 
-The Space ROS docs provide more in-depth guides, demos and tutorials.
-
-* Link to `Space ROS Docs <https://space-ros.github.io/docs/rolling/index.html>`_
+The `Space ROS Docs <https://space-ros.github.io/docs/rolling/index.html>`_ provide more in-depth guides, demos and tutorials.
 
 Space ROS Docker Images
 -----------------------
 
-Check out the Docker images of Space ROS.
-
-* Link to `Space ROS Docker Images <https://hub.docker.com/r/osrf/space-ros>`_
+Check out the `Space ROS Docker Hub <https://hub.docker.com/r/osrf/space-ros>`_ for Docker images.
 
 Space ROS Github Organization
 -----------------------------
 
-The Space ROS Github organization has several repositories that contain various parts of the Space ROS work.
-
-* Link to `Space ROS Github Organization <https://github.com/space-ros>`_
+The `Space ROS Github Organization <https://github.com/space-ros>`_ has several repositories that contain various parts of the Space ROS work.
 
 ROS Answers
 -----------
 
-Questions and answers from the ROS community.
-
-* Link to `ROS Answers <https://answers.ros.org/questions/>`_
+In `ROS Answers <https://answers.ros.org/questions/>`_ you can find questions and answers from the ROS community.
 
 ROS Discourse
 -------------
 
-A forum for announcements, news, and discussions of ROS in general.
-
-* Link to `ROS Discourse <https://discourse.ros.org/>`_
+The `ROS Discourse <https://discourse.ros.org/>`_ is a forum for announcements, news, and discussions of ROS in general.
