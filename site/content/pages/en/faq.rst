@@ -110,13 +110,6 @@ What programming language(s) is Space ROS written in?
 
 Because verification and validation tools for aerospace, and space specifically, Space ROS assumes C++ 14.
 
-When is Space ROS available?
-============================
-
-We will release a minimal viable product (MVP) preview of Space ROS in early 2022.
-We are targeting February 2022.
-We will release the first formal release of Space ROS in winter of 2022.
-
 Is there a Space ROS roadmap?
 =============================
 
