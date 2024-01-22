@@ -27,10 +27,10 @@ Space ROS Github Organization
 
 The `Space ROS Github Organization <https://github.com/space-ros>`_ has several repositories that contain various parts of the Space ROS work.
 
-ROS Answers
------------
+Robotics Stack Exchange
+-----------------------
 
-In `ROS Answers <https://answers.ros.org/questions/>`_ you can find questions and answers from the ROS community.
+Use `Robotics Stack Exchange <https://robotics.stackexchange.com>`_ hosts questions and answers from the ROS community.
 
 ROS Discourse
 -------------

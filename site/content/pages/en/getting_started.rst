@@ -20,11 +20,11 @@ This site has installation instructions for ROS, tutorials, how-to guides, and m
 
 In addition, there are two sites that can be helpful as you learn and use ROS 2:
 
-ROS Answers
-^^^^^^^^^^^
+Robotics Stack Exchange
+^^^^^^^^^^^^^^^^^^^^^^^
 
-`ROS Answers <https://answers.ros.org/questions/>`_  is a website that has questions and answers from the ROS community.
-If you encounter an issue, it is very likely that someone else has faced the same problem before, and that it’s covered among the more than 10,000 questions at ROS Answers.
+`Robotics Stack Exchange <https://robotics.stackexchange.com>`_  is a website that has questions and answers from the ROS community.
+If you encounter an issue, it is very likely that someone else has faced the same problem before, and that it’s covered among the thousands of questions on the Robotics Stack Exchange.
 Start by searching for questions similar to yours; if your question isn’t already asked, post a new one.
 Be sure to check the guidelines on how to prepare your question before posting.
 
